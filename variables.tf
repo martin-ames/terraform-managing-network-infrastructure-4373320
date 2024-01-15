@@ -1,17 +1,17 @@
 # security credential variables
-variable "access_key" {
-  type        = string
-  sensitive   = true
-}
-
-variable "secret_key" {
-  type        = string
-  sensitive   = true
-}
+# variable "access_key" {
+# type        = string
+#  sensitive   = true
+#}
+#
+#variable "secret_key" {
+#  type        = string
+#  sensitive   = true
+#}
 
 variable "region" {
   type        = string
-  default     = "us-east-2"
+  default     = "ap-southeast-2"
 }
 
 # network variables
